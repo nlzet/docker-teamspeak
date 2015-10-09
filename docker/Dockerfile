@@ -4,8 +4,6 @@ ENV \
   HOME /root \
   DEBIAN_FRONTEND noninteractive
 
-RUN echo $TEAMSPEAK_VERSION
-
 RUN apt-get update && apt-get -y upgrade && \
     apt-get dist-upgrade -y && \
     apt-get -y install curl && \
