@@ -1,3 +1,5 @@
+*Warning: this is a fork from https://github.com/overshard/docker-teamspeak, this version is almost the same but uses the phusion:baseimage as the base image for the docker image.*
+
 # docker-teamspeak
 
 A nice and easy way to get a TeamSpeak server up and running using docker. For
